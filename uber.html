@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Uber Eats</title>
+      <style>
+        section{
+            border:solid 5px rgb(247, 213, 168);
+            border-radius: 10px;
+            width:max-content;
+            padding:10px;
+        }
+        .logo{
+            display:flex;
+        }
+        .logtxt{
+            padding-left: 3%;
+            font-size: 45px;
+            font-weight:100;
+            font-family:fantasy ;
+            color: rgb(51, 51, 8);
+        }
+        .grid{
+            background-color: rgb(245, 204, 142);
+            padding:20px;
+        }
+        .dish{
+            text-decoration: none;
+            font-size: 25px;
+            padding-left:40px;
+            padding-right:30px;
+        }
+        .log{
+            height:150px;
+            width:150px;
+        }
+      </style>
+   </head>
+	<body>
+        <section>
+        <div class="logo">
+            <img class="log" src="data:image/png;base64,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"/>
+            <h1 class="logtxt">Uber Eats</h1>
+        </div>
+        <div class="grid">
+            <a href="nuggets.html" target="_blank"  class="dish">Nuggets</a>
+            <a href="pasta.html" target="_blank"  class="dish">Pasta</a>
+            <a href="chick.html" target="_blank"  class="dish">Chicken Popcorn</a>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31329.676368446344!2d76.94350267276839!3d11.022899055017325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b1d01d612f%3A0xea529419d2c155f8!2sUber%20and%20Uber%20Eats!5e0!3m2!1sen!2sin!4v1690279745683!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </section>
+    </body>
+
+   
+   
+</html>
